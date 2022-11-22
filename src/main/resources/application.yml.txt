@@ -1,0 +1,7 @@
+# 아래의 {input} 에 알맞은 값을 넣은 후 사용
+spring:
+  datasource:
+    driver-class-name: {input}
+    url: {input}
+    username: {input}
+    password: {input}
