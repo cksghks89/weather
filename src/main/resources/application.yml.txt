@@ -5,3 +5,6 @@ spring:
     url: {input}
     username: {input}
     password: {input}
+  jpa:
+    show-sql: {input}
+    database: {input}
