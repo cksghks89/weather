@@ -113,4 +113,8 @@ public class DiaryService {
 
         diaryRepository.save(nowDiary);
     }
+
+    public void deleteDiary(LocalDate date) {
+        diaryRepository.deleteAllByDate(date);
+    }
 }
