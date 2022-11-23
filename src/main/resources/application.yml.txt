@@ -6,5 +6,11 @@ spring:
     username: {input}
     password: {input}
   jpa:
-    show-sql: {input}
+    show-sql: true
     database: {input}
+    hibernate:
+      ddl-auto: create
+
+openweathermap:
+    key: {input}
+
