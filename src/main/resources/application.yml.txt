@@ -8,8 +8,9 @@ spring:
   jpa:
     show-sql: true
     database: {input}
+    generate-ddl: true
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
 
 openweathermap:
     key: {input}

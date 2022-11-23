@@ -11,4 +11,5 @@ import java.util.Optional;
 @Repository
 public interface DiaryRepository extends JpaRepository<Diary, Integer> {
     List<Diary> findAllByDate(LocalDate date);
+    List<Diary> findAllByDateBetween(LocalDate startDate, LocalDate endDate);
 }
