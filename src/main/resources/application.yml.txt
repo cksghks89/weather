@@ -12,6 +12,9 @@ spring:
     hibernate:
       ddl-auto: update
 
+logging:
+  config: classpath:logback-spring.xml
+
 openweathermap:
     key: {input}
 
